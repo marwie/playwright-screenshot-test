@@ -1,0 +1,21 @@
+{
+  "name": "vite-basic",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "test": "npx playwright test && npx playwright show-report"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.36.2",
+    "@types/node": "^20.4.7",
+    "glob": "^10.3.3",
+    "node-fetch": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "4.3.9"
+  }
+}
